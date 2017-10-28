@@ -1,0 +1,2 @@
+GH	GHA	288	GH	Ghana	Accra	239460	24339838	AF	.gh	GHS	Cedi	233			en-GH,ak,ee,tw	2300660	CI,TG,BF	
+GI	GIB	292	GI	Gibraltar	Gibraltar	6.5	27884	EU	.gi	GIP	Pound	350			en-GI,es,it,pt	2411586	ES	

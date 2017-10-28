@@ -1,0 +1,4 @@
+geonameid	city_name	latitude	longitude	country_code	population	postal code	Country	Capital	alternateNameId	alterName	isPrefered
+1448087	Chowney	33.38278	66.27233	AF	2001	4192	Gibraltar	Gibraltar	1297851	Cap de l’Ovella	1.0
+1448087	Chowney	33.38278	66.27233	AF	2001	4192	Gibraltar	Gibraltar	1297853	Caps de l’Ovella	1.0
+1448087	Chowney	33.38278	66.27233	AF	2001	4192	Gibraltar	Gibraltar	1297852	Cape de l’Ovella	0.0

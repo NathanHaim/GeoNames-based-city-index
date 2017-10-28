@@ -9,6 +9,6 @@
 *.pyc
 
 # Other Files
-pipe_files/entrance_files/*
+/pipe_files/entrance_files/*.txt
 *.csv
 

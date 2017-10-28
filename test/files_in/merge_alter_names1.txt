@@ -1,0 +1,3 @@
+1297851	1448087	Cap de l’Ovella	1.0
+1297853	1448087	Caps de l’Ovella	1.0
+1297852	1448087	Cape de l’Ovella	0.0
