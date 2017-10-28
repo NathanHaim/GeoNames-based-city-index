@@ -11,9 +11,7 @@ def clean_file_cities(name_file_in,name_file_out):
                         "country code", "cc2","admin1 code","admin2 code","admin3 code","admin4 code" ,"population" ,
                         "elevation" ,"dem" ,"timezone","modification date" ]
     columns_unusable = ['name','cc2','admin1 code','admin2 code','admin3 code','admin4 code','elevation']
-    print("bbbbbbbb")
     data = pandas.read_csv(name_file_in, sep="\t", header = None)
-    print("aaaaaaaa")
     data.columns = columns
     for col in columns_unusable:
         del data[col]
