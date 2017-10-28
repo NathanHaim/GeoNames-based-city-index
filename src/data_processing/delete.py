@@ -6,7 +6,7 @@ def delete_information_cities(name_file_in, name_file_out):
 	columns = ["geonameid", "asciiname", "alternatenames", "latitude", "longitude","feature class","feature code" ,
 	                "country code" ,"population" ,"dem" ,"timezone","modification date" ]
 	columns_useless = ["alternatenames","feature class","feature code" , "dem" ,"timezone","modification date"]
-	data = pandas.read_csv(name_file_in, sep="\t", header = None, low_memory=False)
+	data = pandas.read_csv(name_file_in, sep="\t", header = None)
 	data.columns = columns
 	for col in columns_useless:
 		del data[col]

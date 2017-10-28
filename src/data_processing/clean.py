@@ -3,19 +3,21 @@ import numpy
 
 
 def clean_file_cities(name_file_in,name_file_out):
-	""" File : cities1000.txt
-	Parameter 1 : path of file to clean
-	Parameter 2 : path to save file cleaned
-    Task to clean data """ 
-	columns = ["geonameid", "name", "asciiname", "alternatenames", "latitude", "longitude","feature class","feature code" ,
-	            		"country code", "cc2","admin1 code","admin2 code","admin3 code","admin4 code" ,"population" ,
-	            		"elevation" ,"dem" ,"timezone","modification date" ]
-	columns_unusable = ['name','cc2','admin1 code','admin2 code','admin3 code','admin4 code','elevation']
-	data = pandas.read_csv(name_file_in, sep="\t", header = None, low_memory=False)
-	data.columns = columns
-	for col in columns_unusable:
-		del data[col]
-	data.to_csv(name_file_out, encoding='utf8', sep="\t", header= False, index=False)
+    """ File : cities1000.txt
+    Parameter 1 : path of file to clean
+    Parameter 2 : path to save file cleaned
+    Task to clean data """
+    columns = ["geonameid", "name", "asciiname", "alternatenames", "latitude", "longitude","feature class","feature code" ,
+                        "country code", "cc2","admin1 code","admin2 code","admin3 code","admin4 code" ,"population" ,
+                        "elevation" ,"dem" ,"timezone","modification date" ]
+    columns_unusable = ['name','cc2','admin1 code','admin2 code','admin3 code','admin4 code','elevation']
+    print("bbbbbbbb")
+    data = pandas.read_csv(name_file_in, sep="\t", header = None)
+    print("aaaaaaaa")
+    data.columns = columns
+    for col in columns_unusable:
+        del data[col]
+    data.to_csv(name_file_out, encoding='utf8', sep="\t", header= False, index=False)
 
 
 def clean_file_countries(name_file_in, name_file_out):
