@@ -1,0 +1,14 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+
+# Other Files
+pipe_files/entrance_files/*
+*.csv
+
