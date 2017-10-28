@@ -5,13 +5,7 @@ You can download the Geonames datasets ([Cities1000.zip](http://download.geoname
 
 Data is cleaned, modified, merged, prepared to be send trough different pipes. Luigi module is used to created these pipes and pandas is used to clean and modify the data.
 
-At the output pipeline, the city objects are added to your Algoria Index. Each city object provides at least the following attributes:
-⋅⋅* name
-⋅⋅* country
-⋅⋅* alternative names
-⋅⋅* postcode(s)
-⋅⋅* population
-⋅⋅* lat/lng position
+At the output pipeline, the city objects are added to your Algoria Index. Each city object provides at least the following attributes: name, country, alternative names, postcode(s), population, lat/lng position
 
 # Launch tests
 
